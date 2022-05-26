@@ -12,11 +12,13 @@
   text-align: right;
 }
 
-.header-container img {
+.header-container 
+img {
   width: 100%;
 }
 
-.header-container .more-inf {
+.header-container 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -162,11 +164,13 @@ li input[type=text] {
   display: none;
 }
 
-li.edit-mode input[type=text] {
+li.edit-mode 
+input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-li.edit-mode label {
+li.edit-mode
+label {
   display: none;
 }
