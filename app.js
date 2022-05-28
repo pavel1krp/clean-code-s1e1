@@ -45,15 +45,21 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="button_delete button";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.classList.add("delete-button");
     deleteButton.appendChild(deleteButtonImg);
+  
 
 
     //and appending.
+    checkBox.classList.add("list__checkbox")
     listItem.appendChild(checkBox);
+    label.classList.add("list__label");
     listItem.appendChild(label);
+    editInput.classList.add("list__text")
     listItem.appendChild(editInput);
     listItem.appendChild(editButton);
     listItem.appendChild(deleteButton);
+    listItem.classList.add("list__item");
     return listItem;
 }
 
